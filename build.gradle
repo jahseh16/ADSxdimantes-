@@ -5,9 +5,9 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.2' // Use a recent AGP version
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // Match Kotlin version if known, or use a recent one
-        classpath 'com.google.gms:google-services:4.4.1' // Or a more recent version like 4.3.15 or 4.4.1
+        classpath 'com.android.tools.build:gradle:8.2.1' // Downgraded slightly
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20' // Downgraded slightly
+        classpath 'com.google.gms:google-services:4.4.1'
 
         // NOTE: Do not add application dependencies here; they belong
         // in the individual module build.gradle files
