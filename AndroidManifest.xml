@@ -1,0 +1,13 @@
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+<application
+    android:icon="@drawable/icono"
+    android:theme="@style/Theme.ADSxDIAMANTES"
+    ... >
+
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-8378428271014065~3309344528"/>
+
+</application>
