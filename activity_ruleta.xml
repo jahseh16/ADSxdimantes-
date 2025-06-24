@@ -7,17 +7,18 @@
     <ImageView android:id="@+id/ruletaImg"
         android:src="@drawable/ruleta_img"
         android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:layout_height="200dp"
+        android:contentDescription="@string/ruleta_image_description" />
 
     <TextView android:id="@+id/txtPremio"
-        android:text="🎁 Gira para ganar"
+        android:text="@string/gira_para_ganar_initial_text"
         android:textSize="24sp"
         android:layout_margin="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button android:id="@+id/btnGirar"
-        android:text="🎰 Girar"
+        android:text="@string/girar_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>

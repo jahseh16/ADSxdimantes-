@@ -3,7 +3,7 @@
     android:layout_height="match_parent" android:background="@drawable/fondo_hd">
 
     <TextView android:id="@+id/puntosText"
-        android:text="🎮 Puntos: 0" android:textSize="24sp"
+        android:text="@string/puntos_initial_text" android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -13,12 +13,12 @@
         android:layout_weight="1" />
 
     <Button android:id="@+id/btnVerAnuncio"
-        android:text="📺 Ver Anuncio"
+        android:text="@string/ver_anuncio_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button android:id="@+id/btnRuleta"
-        android:text="🎰 Ir a la Ruleta"
+        android:text="@string/ir_a_ruleta_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
