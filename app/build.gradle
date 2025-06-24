@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.jahseh.adsxdiamantes' // Assuming this from package names seen
+    compileSdk 34 // Assuming a recent SDK
+
+    defaultConfig {
+        applicationId "com.jahseh.adsxdiamantes"
+        minSdk 21 // Common min SDK
+        targetSdk 34 // Matching compileSdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    // Add viewBinding or other features if needed by layouts, for now keep it minimal
+    // viewBinding {
+    //    enabled = true
+    // }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-database:20.3.0'
+    implementation 'com.google.android.gms:play-services-ads:23.0.0'
+
+    // Standard Android dependencies - user might need to add more
+    implementation 'androidx.core:core-ktx:1.12.0' // Example, version might vary
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Example
+    implementation 'com.google.android.material:material:1.11.0' // Example
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Example
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
