@@ -1,0 +1,20 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="puntos_initial_text">🎮 Puntos: 0</string>
+    <string name="ver_anuncio_button">📺 Ver Anuncio</string>
+    <string name="ir_a_ruleta_button">🎰 Ir a la Ruleta</string>
+    <string name="puntos_format">🎮 Puntos: %1$d</string> <!-- For dynamic updates from Kotlin -->
+
+    <!-- RuletaActivity -->
+    <string name="ruleta_image_description">Imagen de la ruleta</string>
+    <string name="gira_para_ganar_initial_text">🎁 Gira para ganar</string>
+    <string name="girar_button">🎰 Girar</string>
+    <string name="ganaste_puntos_format">🎁 Ganaste %1$d puntos</string> <!-- For dynamic updates -->
+    <string name="espera_horas_para_girar">⏳ Espera 4 horas para volver a girar</string>
+    <string name="espera_horas_minutos_format">⏳ Espera aprox. %1$d h %2$02d min.</string> <!-- For dynamic updates -->
+    <string name="puedes_girar_de_nuevo">⏳ ¡Puedes girar de nuevo!</string>
+    <string name="gira_para_ganar_remaining_format">🎁 Gira para ganar (%1$d giros restantes)</string> <!-- For dynamic updates -->
+
+    <!-- General/App Name (if not already defined elsewhere) -->
+    <string name="app_name">ADSxDIAMANTES</string>
+</resources>
